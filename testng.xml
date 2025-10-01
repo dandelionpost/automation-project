@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutomationSuite">
+    <test name="SampleTestRun">
+        <classes>
+            <!-- Replace with your actual test class -->
+            <class name="tests.GoogleTest"/>
+        </classes>
+    </test>
+</suite>

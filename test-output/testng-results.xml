@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-01T09:34:44 IST" name="Default suite" finished-at="2025-10-01T09:34:48 IST" duration-ms="3963">
+  <suite started-at="2025-10-01T15:17:11 IST" name="Default suite" finished-at="2025-10-01T15:17:27 IST" duration-ms="15469">
     <groups>
     </groups>
-    <test started-at="2025-10-01T09:34:44 IST" name="Default test" finished-at="2025-10-01T09:34:48 IST" duration-ms="3963">
-      <class name="api.SampleApiTest">
-        <test-method signature="testGetUsers()[pri:0, instance:api.SampleApiTest@6c6cb480]" started-at="2025-10-01T09:34:44 IST" name="testGetUsers" finished-at="2025-10-01T09:34:48 IST" duration-ms="3872" status="PASS">
+    <test started-at="2025-10-01T15:17:11 IST" name="Default test" finished-at="2025-10-01T15:17:27 IST" duration-ms="15469">
+      <class name="tests.GoogleTest">
+        <test-method signature="openGoogle()[pri:0, instance:tests.GoogleTest@6c6cb480]" started-at="2025-10-01T15:17:11 IST" name="openGoogle" finished-at="2025-10-01T15:17:27 IST" duration-ms="15346" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUsers -->
-      </class> <!-- api.SampleApiTest -->
+        </test-method> <!-- openGoogle -->
+      </class> <!-- tests.GoogleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
