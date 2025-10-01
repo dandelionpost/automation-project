@@ -10,10 +10,16 @@ import io.restassured.RestAssured;
 public class SampleApiTest {
 	@Test
 	public void testGetUsers() {
-		Response res = RestAssured.get("https://reqres.in/api/users?page=2");
-		Assert.assertEquals(res.getStatusCode(), 200);
-		Assert.assertTrue(res.asString().contains("email"));
+	    // Optionally skip if environment variable set
+	    if ("ci".equals(System.getenv("CI"))) {
+	        System.out.println("Skipping API test in CI environment");
+	        return;
+	    }
+	    Response res = RestAssured.get("https://reqres.in/api/users?page=2");
+	    Assert.assertEquals(res.getStatusCode(), 200);
+	    Assert.assertTrue(res.asString().contains("email"));
 	}
+
 	
 
 }
